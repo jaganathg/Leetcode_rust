@@ -1,0 +1,156 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '1_two_sum'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=1_two_sum",
+                    "--package=Rust"
+                ],
+                "filter": {
+                    "name": "1_two_sum",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '1_two_sum'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=1_two_sum",
+                    "--package=Rust"
+                ],
+                "filter": {
+                    "name": "1_two_sum",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '13_roman_to_number'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=13_roman_to_number",
+                    "--package=Rust"
+                ],
+                "filter": {
+                    "name": "13_roman_to_number",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '13_roman_to_number'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=13_roman_to_number",
+                    "--package=Rust"
+                ],
+                "filter": {
+                    "name": "13_roman_to_number",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '9_palindrom_number'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=9_palindrom_number",
+                    "--package=Rust"
+                ],
+                "filter": {
+                    "name": "9_palindrom_number",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '9_palindrom_number'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=9_palindrom_number",
+                    "--package=Rust"
+                ],
+                "filter": {
+                    "name": "9_palindrom_number",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '14_longest_common_perfix'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=14_longest_common_perfix",
+                    "--package=Rust"
+                ],
+                "filter": {
+                    "name": "14_longest_common_perfix",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '14_longest_common_perfix'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=14_longest_common_perfix",
+                    "--package=Rust"
+                ],
+                "filter": {
+                    "name": "14_longest_common_perfix",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
